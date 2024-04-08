@@ -38,7 +38,8 @@
 };
 
 * {
-  font-family: 'Fira Code', Courier, monospace;
+  /* font-family: 'Fira Code', Courier, monospace; */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   padding: 0;
   margin: 0;  
   font-size: 21px;  
@@ -119,10 +120,15 @@ hr{
   opacity: 0.75; 
 }
 
+input:focus::placeholder {
+  color: transparent;
+}
+
 .tsb {
   outline: none;
   border: none;
   background-color:var(--main-bg2);
+  color: var(--main-fg);
   font-size: 18px;
 }
 
