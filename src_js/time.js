@@ -3,14 +3,14 @@ function timeup() {
   var time = new Date();
   var hour = time.getHours();
   var min = time.getMinutes();
-  var ampm = "AM";
-  if (hour > 12) {
-    hour -= 12;
-    ampm = "PM";
-  }
-  if (hour == 0) {
-    hour = 12;
-  }
+  // var ampm = "AM";
+  // if (hour > 12) {
+  //   hour -= 12;
+  //   ampm = "PM";
+  // }
+  // if (hour == 0) {
+  //   hour = 12;
+  // }
   if (hour < 10) {
     hour = "0" + hour;
   }
@@ -18,7 +18,7 @@ function timeup() {
     min = "0" + min;
   }
 
-  var currentTime = hour + ":" + min + " " + ampm;
+  var currentTime = hour + ":" + min;
   document.getElementById("time").innerHTML = currentTime;
   setTimeout(timeup, 1000);
 }
