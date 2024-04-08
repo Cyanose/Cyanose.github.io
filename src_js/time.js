@@ -25,18 +25,18 @@ function timeup() {
 window.onload = dateup();
 function dateup() {
   const monthNames = [
-    "Jan",
-    "Feb",
+    "Sty",
+    "Lut",
     "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
+    "Kwi",
+    "Maj",
+    "Cze",
+    "Lip",
+    "Sie",
+    "Wrz",
+    "Paź",
+    "Lis",
+    "Gru",
   ];
   var date = new Date();
   var day = date.getDate();
