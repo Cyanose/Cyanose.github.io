@@ -1,6 +1,6 @@
 function showTables(buttonNumber) {
   // Hide all tables
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 1; i <= 2; i++) {
     document.getElementById(`table${i}`).classList.add("hidden");
   }
 
@@ -8,9 +8,9 @@ function showTables(buttonNumber) {
   if (buttonNumber === 1) {
     document.getElementById("table1").classList.remove("hidden");
     document.getElementById("table2").classList.remove("hidden");
-  } else if (buttonNumber === 2) {
-    document.getElementById("table3").classList.remove("hidden");
-    document.getElementById("table4").classList.remove("hidden");
+  // } else if (buttonNumber === 2) {
+  //   document.getElementById("table3").classList.remove("hidden");
+  //   document.getElementById("table4").classList.remove("hidden");
   // } else if (buttonNumber === 3) {
   //   document.getElementById("table5").classList.remove("hidden");
   //   document.getElementById("table6").classList.remove("hidden");
